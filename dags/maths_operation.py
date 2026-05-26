@@ -46,8 +46,8 @@ def square_number(**context):
 ## Define the DAG
 with DAG(
     dag_id='math_sequence_dag',
-    start_date=datetime(2023,1,1),
-    schedule_interval='@once',
+    start_date=datetime(2026,5,22),
+    # schedule_interval='@once',
     catchup=False
 
 ) as dag:
